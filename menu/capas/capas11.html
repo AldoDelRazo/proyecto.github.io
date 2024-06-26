@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Payera1</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body class="body">
+  <div>
+    <img  src="IMAGENES PLAYERA/capas11.jpeg" alt="VESTIDO1" class="tamaño2">
+    <h1 class="h1" ><center>Capa <br>de gato<br>negra <br><br>$350.00</center></h1>
+  </div>
+  <p class="titcolor">COLOR:</p>
+
+  <div class="color-selector colores">
+    <div class="color-option btnnegro" onclick="selectColor(this)"></div>
+</div>
+
+<script>
+    function selectColor(element) {
+        // Remove the 'selected' class from all options
+        document.querySelectorAll('.color-option').forEach(option => {
+            option.classList.remove('selected');
+        });
+        
+        // Add the 'selected' class to the clicked option
+        element.classList.add('selected');
+    }
+</script>
+
+
+    <p class="tittallas">TALLAS:</p>
+ 
+
+      <select class="select">
+      <option value="html"></option>
+      <option value="html">CH</option>
+      <option value="html">M</option>
+      <option value="html">G</option>
+      <option value="html">EG</option>
+      </select>
+  </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div>
+    <center>   
+  <a href="carrito.html" class="botonañadiracarrito">agregar al carrito</a>
+    </center>  
+    </div>  
+  </body>
+</html>
+    
